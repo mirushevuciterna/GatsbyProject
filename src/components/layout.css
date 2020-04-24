@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
+
+.header-img {
+  background: url(../images/header-img.jpg) no-repeat center center;
+  background-size: cover;
+  height: 540px;
+}
