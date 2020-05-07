@@ -1,0 +1,97 @@
+.footer {
+  background: #225965;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+.links {
+  display: inline-grid;
+  color: #cccccc;
+}
+a:hover {
+  color: white;
+}
+
+.col-lg-4.col-md-4.col-sm-6.footer-block {
+  display: inline-grid !important;
+}
+.links a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--mainWhite);
+  margin: 0.5rem 1rem;
+  letter-spacing: var(--mainSpacing);
+  transition: var(--mainTransition);
+  font-weight: bold;
+}
+.links a:hover {
+  color: var(--primaryColor);
+}
+.icons a {
+  display: inline-block;
+  margin: 1rem;
+  font-size: 1.3rem;
+  color: var(--mainWhite);
+  transition: var(--mainTransition);
+}
+.icons a:hover {
+  color: var(--primaryColor);
+}
+.copyright {
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  line-height: 2;
+}
+
+.footer-nav {
+  font-size: 12px;
+}
+.footer h3 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.footer-nav li {
+  list-style: none;
+  line-height: 2em;
+}
+.footer-nav p,
+.footer-nav li a {
+  color: #ccc;
+}
+.footer-nav li a:hover {
+  color: white;
+}
+.blue-divider {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  height: 20px;
+}
+.blue-divider div {
+  height: 100%;
+}
+.blue-divider .dark-blue-bg {
+  width: 30%;
+}
+.blue-divider .blue-bg {
+  background-color: #1b434c;
+  width: 60%;
+}
+.dark-blue-bg {
+  background-color: #072628;
+}
+.blue-divider-bg-graphic {
+  background: #08292b url(../images/header-lines.jpg) right center no-repeat;
+  width: 10%;
+}
+footer {
+  background: #122f35;
+}
+.copyright-text {
+  color: #ccc;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+}

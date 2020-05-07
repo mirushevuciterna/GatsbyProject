@@ -1,17 +1,17 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
-import styles from "../css/navbar.module.css"
-import { FaAlignRight } from "react-icons/fa"
-import links from "../constants/links"
-import logo from "../images/logo.png"
-import classNames from "classnames"
-import "bootstrap/dist/css/bootstrap.min.css"
+import React, { useState } from "react";
+import { Link } from "gatsby";
+import styles from "../css/navbar.module.css";
+import { FaAlignRight } from "react-icons/fa";
+import links from "../constants/links";
+import logo from "../images/logo.png";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export const Navbar = () => {
-  const [isOpen, setNav] = useState(false)
+  const [isOpen, setNav] = useState(false);
   const toggleNav = () => {
-    setNav(isOpen => !isOpen)
-  }
+    setNav((isOpen) => !isOpen);
+  };
   return (
     <div className={styles.headerBg}>
       <div className="container">
@@ -21,7 +21,7 @@ export const Navbar = () => {
             <h1 className={styles.siteName}>Multi Pro</h1>
           </div>
           <div className={styles.mobileMenuIcon}>
-            <i className={`${styles.fa} ${styles.faBars}`}></i>
+            <i className="fa fa-bars"></i>
           </div>
           <div className={styles.templatemoNavContainer}>
             <nav className={styles.templatemoNav}>
@@ -37,7 +37,7 @@ export const Navbar = () => {
                     <li key={index}>
                       <Link to={item.path}>{item.text}</Link>
                     </li>
-                  )
+                  );
                 })}
               </ul>
             </nav>
@@ -56,7 +56,7 @@ export const Navbar = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
