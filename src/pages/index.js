@@ -25,7 +25,6 @@ export default () => (
     </Reusable>
     <Blog></Blog>
     <Blog></Blog>
-    <Blog></Blog>
     <Features></Features>
   </Layout>
 );
